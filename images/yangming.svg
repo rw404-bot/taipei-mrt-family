@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="陽明山花鐘與櫻花插圖">
+<defs>
+<linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd6e4"/><stop offset="1" stop-color="#fff2f7"/></linearGradient>
+<g id="t3"><ellipse cx="0" cy="2" rx="22" ry="7" fill="#000" opacity=".1"/><rect x="-4" y="-24" width="8" height="26" rx="2" fill="#8d5a3b"/><circle cx="0" cy="-48" r="30" fill="#ffb3c7"/><circle cx="-13" cy="-42" r="17" fill="#ff8fab"/><circle cx="13" cy="-58" r="15" fill="#ffd0dc"/></g>
+</defs>
+<rect width="600" height="400" fill="url(#s)"/>
+<ellipse cx="110" cy="70" rx="50" ry="15" fill="#fff"/><ellipse cx="146" cy="60" rx="30" ry="13" fill="#fff"/><ellipse cx="480" cy="56" rx="46" ry="14" fill="#fff"/>
+<path d="M0 240 Q90 110 200 200 Q300 70 420 190 Q510 120 600 210 V400 H0Z" fill="#b9e6c7"/>
+<path d="M0 300 Q200 230 400 300 T600 280 V400 H0Z" fill="#8fd6a4"/>
+<path d="M0 350 Q200 310 420 350 T600 340 V400 H0Z" fill="#6cc58a"/>
+<!-- 花鐘 -->
+<circle cx="300" cy="300" r="86" fill="#7bc89a"/><circle cx="300" cy="300" r="74" fill="#fff"/><circle cx="300" cy="300" r="74" fill="none" stroke="#e8a0b4" stroke-width="7"/>
+<g fill="#ff8fab"><circle cx="300" cy="250" r="16"/><circle cx="350" cy="300" r="16"/><circle cx="300" cy="350" r="16"/><circle cx="250" cy="300" r="16"/></g>
+<g fill="#ffd23f"><circle cx="336" cy="264" r="13"/><circle cx="336" cy="336" r="13"/><circle cx="264" cy="336" r="13"/><circle cx="264" cy="264" r="13"/></g>
+<circle cx="300" cy="300" r="20" fill="#ff5a67"/><circle cx="300" cy="300" r="8" fill="#fff"/>
+<line x1="300" y1="300" x2="300" y2="262" stroke="#2d2a32" stroke-width="5" stroke-linecap="round"/><line x1="300" y1="300" x2="326" y2="312" stroke="#2d2a32" stroke-width="5" stroke-linecap="round"/>
+<use href="#t3" x="90" y="330"/><use href="#t3" x="150" y="360"/><use href="#t3" x="520" y="340"/><use href="#t3" x="470" y="372"/>
+<g fill="#ff8fab"><circle cx="190" cy="100" r="7"/><circle cx="430" cy="80" r="7"/><circle cx="310" cy="50" r="7"/><circle cx="500" cy="140" r="6"/><circle cx="90" cy="150" r="6"/><circle cx="360" cy="130" r="5"/></g>
+<g transform="translate(420 372)"><rect x="-5" y="-14" width="4" height="15" fill="#3b4a5a"/><rect x="1" y="-14" width="4" height="15" fill="#3b4a5a"/><rect x="-8" y="-34" width="16" height="22" rx="6" fill="#4d96ff"/><circle cx="0" cy="-42" r="8" fill="#ffd2ad"/><path d="M-8 -44 Q0 -56 8 -44Z" fill="#4a3226"/></g>
+<g transform="translate(180 374) scale(.8)"><rect x="-5" y="-14" width="4" height="15" fill="#3b4a5a"/><rect x="1" y="-14" width="4" height="15" fill="#3b4a5a"/><rect x="-8" y="-34" width="16" height="22" rx="6" fill="#ffd23f"/><circle cx="0" cy="-42" r="8" fill="#ffd2ad"/><path d="M-8 -44 Q0 -56 8 -44Z" fill="#4a3226"/></g>
+</svg>

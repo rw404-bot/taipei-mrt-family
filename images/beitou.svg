@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="北投溫泉與櫻花插圖">
+<defs>
+<linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd0e0"/><stop offset="1" stop-color="#fff0f5"/></linearGradient>
+<linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b9ecff"/><stop offset="1" stop-color="#6ccbe6"/></linearGradient>
+<g id="t3"><ellipse cx="0" cy="2" rx="20" ry="6" fill="#000" opacity=".1"/><rect x="-4" y="-22" width="8" height="24" rx="2" fill="#8d5a3b"/><circle cx="0" cy="-44" r="28" fill="#ffb3c7"/><circle cx="-12" cy="-38" r="16" fill="#ff8fab"/><circle cx="12" cy="-54" r="14" fill="#ffd0dc"/></g>
+</defs>
+<rect width="600" height="400" fill="url(#s)"/>
+<path d="M0 250 Q150 170 300 235 T600 215 V400 H0Z" fill="#bfe9cc"/>
+<path d="M0 300 Q200 250 400 305 T600 290 V400 H0Z" fill="#98d9ae"/>
+<!-- 溫泉池 -->
+<ellipse cx="300" cy="330" rx="210" ry="56" fill="#d9c7a8"/><ellipse cx="300" cy="326" rx="190" ry="46" fill="url(#w)"/><ellipse cx="290" cy="318" rx="140" ry="26" fill="#d9f6ff" opacity=".7"/>
+<g fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" opacity=".95"><path d="M232 300 q-22 -36 0 -70 t0 -66"/><path d="M300 300 q-22 -44 0 -84 t0 -80"/><path d="M368 300 q-22 -36 0 -70 t0 -66"/></g>
+<g fill="#ffd0dc" opacity=".9"><circle cx="210" cy="332" r="5"/><circle cx="380" cy="338" r="5"/><circle cx="330" cy="320" r="4"/><circle cx="260" cy="340" r="4"/></g>
+<!-- 溫泉屋 -->
+<polygon points="450,238 520,212 590,238 520,264" fill="#ff9fb8"/><polygon points="450,238 520,264 520,318 450,292" fill="#f1cfae"/><polygon points="520,264 590,238 590,292 520,318" fill="#e5b891"/>
+<polygon points="440,240 520,206 600,240 520,254" fill="#ff7aa2"/><rect x="498" y="276" width="24" height="42" rx="4" fill="#8d5a3b"/>
+<use href="#t3" x="70" y="290"/><use href="#t3" x="130" y="320"/><use href="#t3" x="545" y="360"/>
+<g fill="#ff8fab"><circle cx="190" cy="120" r="7"/><circle cx="420" cy="90" r="7"/><circle cx="300" cy="60" r="7"/><circle cx="480" cy="170" r="6"/><circle cx="110" cy="200" r="6"/><circle cx="370" cy="150" r="5"/></g>
+<g transform="translate(298 340)"><circle r="18" fill="#ffd2ad"/><circle cx="-6" cy="-2" r="2.2" fill="#2d2a32"/><circle cx="6" cy="-2" r="2.2" fill="#2d2a32"/><path d="M-6 7 q6 5 12 0" stroke="#2d2a32" stroke-width="2.4" fill="none"/><path d="M-19 -5 q19 -30 38 0 v-6 q-19 -30 -38 0z" fill="#fff"/><ellipse cx="-11" cy="4" rx="4" ry="3" fill="#ff8fab" opacity=".6"/></g>
+</svg>

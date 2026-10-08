@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="台北親子捷運城市插畫">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe6ff"/><stop offset="1" stop-color="#eaf9ff"/></linearGradient>
+  <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7fd0e8"/><stop offset="1" stop-color="#4db6c6"/></linearGradient>
+  <g id="t1"><ellipse cx="0" cy="2" rx="16" ry="6" fill="#000" opacity=".1"/><rect x="-3" y="-14" width="6" height="16" rx="2" fill="#8d5a3b"/><circle cx="0" cy="-30" r="19" fill="#4faf6f"/><circle cx="-7" cy="-35" r="11" fill="#6cc98a"/></g>
+  <g id="t2"><ellipse cx="0" cy="2" rx="14" ry="5" fill="#000" opacity=".1"/><rect x="-3" y="-8" width="6" height="10" fill="#8d5a3b"/><path d="M0 -62 L18 -28 L-18 -28Z" fill="#3a9a5f"/><path d="M0 -48 L22 -12 L-22 -12Z" fill="#4faf6f"/></g>
+  <g id="t3"><ellipse cx="0" cy="2" rx="16" ry="6" fill="#000" opacity=".1"/><rect x="-3" y="-14" width="6" height="16" rx="2" fill="#8d5a3b"/><circle cx="0" cy="-30" r="20" fill="#ffb3c7"/><circle cx="-8" cy="-26" r="11" fill="#ff8fab"/><circle cx="9" cy="-37" r="10" fill="#ffd0dc"/></g>
+  <g id="cloud"><ellipse cx="0" cy="0" rx="60" ry="20" fill="#fff"/><ellipse cx="34" cy="-14" rx="34" ry="20" fill="#fff"/><ellipse cx="-24" cy="-12" rx="26" ry="16" fill="#fff"/></g>
+  <g id="kid"><ellipse cx="0" cy="2" rx="9" ry="3" fill="#000" opacity=".12"/><rect x="-5" y="-12" width="4" height="13" fill="#3b4a5a"/><rect x="1" y="-12" width="4" height="13" fill="#3b4a5a"/><rect x="-7" y="-28" width="14" height="18" rx="5" style="fill:var(--k,#ff5a4d)"/><circle cx="0" cy="-34" r="7" fill="#ffd2ad"/><path d="M-7 -36 Q0 -46 7 -36Z" fill="#4a3226"/></g>
+  <symbol id="bs" overflow="visible"><polygon points="-50,25 0,50 0,110 -50,85" style="fill:var(--l)"/><polygon points="0,50 50,25 50,85 0,110" style="fill:var(--r)"/><polygon points="0,0 50,25 0,50 -50,25" style="fill:var(--t)"/></symbol>
+  <symbol id="bx" overflow="visible"><polygon points="-50,25 0,50 0,150 -50,125" style="fill:var(--l)"/><polygon points="0,50 50,25 50,125 0,150" style="fill:var(--r)"/><polygon points="0,0 50,25 0,50 -50,25" style="fill:var(--t)"/><g fill="#fff" opacity=".85"><polygon points="-40,56 -28,62 -28,78 -40,72"/><polygon points="-22,66 -10,72 -10,88 -22,82"/><polygon points="-40,92 -28,98 -28,114 -40,108"/><polygon points="-22,102 -10,108 -10,124 -22,118"/><polygon points="10,72 22,66 22,82 10,88"/><polygon points="28,62 40,56 40,72 28,78"/><polygon points="10,108 22,102 22,118 10,124"/><polygon points="28,98 40,92 40,108 28,114"/></g></symbol>
+  <symbol id="bt" overflow="visible"><polygon points="-50,25 0,50 0,230 -50,205" style="fill:var(--l)"/><polygon points="0,50 50,25 50,205 0,230" style="fill:var(--r)"/><polygon points="0,0 50,25 0,50 -50,25" style="fill:var(--t)"/><g fill="#fff" opacity=".85"><polygon points="-40,56 -28,62 -28,76 -40,70"/><polygon points="-22,66 -10,72 -10,86 -22,80"/><polygon points="-40,90 -28,96 -28,110 -40,104"/><polygon points="-22,100 -10,106 -10,120 -22,114"/><polygon points="-40,124 -28,130 -28,144 -40,138"/><polygon points="-22,134 -10,140 -10,154 -22,148"/><polygon points="10,72 22,66 22,80 10,86"/><polygon points="28,62 40,56 40,70 28,76"/><polygon points="10,106 22,100 22,114 10,120"/><polygon points="28,96 40,90 40,104 28,110"/><polygon points="10,140 22,134 22,148 10,154"/><polygon points="28,130 40,124 40,138 28,144"/></g></symbol>
+</defs>
+
+<rect width="1600" height="900" fill="url(#sky)"/>
+<use href="#cloud" x="260" y="90"/><use href="#cloud" x="900" y="60" transform="translate(900 60) scale(.8) translate(-900 -60)"/><use href="#cloud" x="1380" y="120"/>
+<!-- 遠山 -->
+<path d="M-20 330 Q120 150 300 250 T560 220 T820 250 Q980 130 1160 240 T1480 200 L1620 260 V420 H-20Z" fill="#cfeedd"/>
+<path d="M-20 360 Q200 220 420 300 T800 290 T1200 300 T1620 290 V460 H-20Z" fill="#b7e6c8"/>
+
+<!-- 地面 -->
+<path d="M-20 400 Q220 330 520 380 T1020 350 T1620 380 V900 H-20Z" fill="#d4f1de"/>
+<path d="M-20 560 Q300 480 640 540 T1200 500 T1620 540 V900 H-20Z" fill="#c6ebd3"/>
+<!-- 河 -->
+<path d="M-20 830 Q300 780 640 825 T1240 800 T1620 830 V900 H-20Z" fill="url(#water)"/>
+<path d="M60 862 q40 -10 80 0 t80 0 M900 872 q40 -10 80 0 t80 0 M1300 850 q40 -10 80 0 t80 0" stroke="#fff" stroke-width="4" fill="none" opacity=".7" stroke-linecap="round"/>
+
+<!-- 道路 -->
+<g fill="none" stroke-linecap="round">
+  <path d="M120 720 Q420 640 700 700 T1300 690 T1640 720" stroke="#fff" stroke-width="34" opacity=".92"/>
+  <path d="M120 720 Q420 640 700 700 T1300 690 T1640 720" stroke="#e9f6ee" stroke-width="3" stroke-dasharray="14 18"/>
+  <path d="M310 400 Q380 520 520 590 T800 590" stroke="#fff" stroke-width="22" opacity=".9"/>
+  <path d="M1060 250 Q1000 400 860 520" stroke="#fff" stroke-width="20" opacity=".9"/>
+  <path d="M1300 540 Q1180 620 920 600" stroke="#fff" stroke-width="20" opacity=".9"/>
+</g>
+
+<!-- 劍潭山 -->
+<path d="M30 320 Q90 120 220 150 Q330 180 360 320Z" fill="#7fcf95"/>
+<path d="M120 320 Q170 210 240 210 Q300 220 330 320Z" fill="#62bb7f"/>
+<path d="M150 310 Q210 280 170 245 Q130 215 200 190" stroke="#f3e2b8" stroke-width="10" fill="none" stroke-linecap="round"/>
+<line x1="200" y1="190" x2="200" y2="150" stroke="#6b4f3a" stroke-width="4"/><path d="M200 150 l34 11 -34 11z" fill="#ff5a4d"/>
+<use href="#t2" x="70" y="290"/><use href="#t2" x="300" y="300"/><use href="#t1" x="345" y="320"/>
+<use href="#kid" x="175" y="262" style="--k:#4d96ff"/><use href="#kid" x="198" y="250" style="--k:#ff9f43" transform="translate(198 250) scale(.8) translate(-198 -250)"/>
+
+<!-- 纜車線 -->
+<line x1="330" y1="372" x2="590" y2="190" stroke="#6b4f3a" stroke-width="3"/>
+<g transform="translate(470 281)"><line x1="0" y1="-12" x2="0" y2="0" stroke="#6b4f3a" stroke-width="3"/><rect x="-18" y="0" width="36" height="28" rx="7" fill="#ff5a4d"/><rect x="-12" y="6" width="10" height="11" rx="2" fill="#fff"/><rect x="2" y="6" width="10" height="11" rx="2" fill="#fff"/></g>
+<rect x="580" y="178" width="22" height="26" rx="4" fill="#fff"/><rect x="576" y="172" width="30" height="8" rx="3" fill="#4db6c6"/>
+
+<!-- 天文館 -->
+<path d="M560 330 Q640 190 760 200 Q860 210 880 330Z" fill="#7fcf95"/>
+<use href="#bs" transform="translate(700 232) scale(.9) translate(0 -110)" style="--t:#fff;--l:#d9e4ff;--r:#bfcdf5"/>
+<path d="M664 200 A38 30 0 0 1 740 200Z" fill="#f4f7ff"/><path d="M664 200 A38 30 0 0 1 740 200Z" fill="none" stroke="#7a8cd8" stroke-width="3"/>
+<g transform="rotate(-35 702 178)"><rect x="696" y="146" width="12" height="40" rx="4" fill="#7a8cd8"/></g>
+<use href="#t1" x="620" y="300"/><use href="#t2" x="830" y="310"/><use href="#t2" x="855" y="326"/>
+
+<!-- 北投溫泉 -->
+<path d="M930 340 Q990 200 1080 200 Q1170 210 1200 340Z" fill="#8fd6a4"/>
+<ellipse cx="1060" cy="258" rx="60" ry="24" fill="#8fdcf7"/><ellipse cx="1060" cy="254" rx="48" ry="17" fill="#b9ecff"/>
+<g fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".95"><path d="M1042 240 q-14 -22 0 -42 t0 -40"/><path d="M1062 240 q-14 -26 0 -50 t0 -46"/><path d="M1082 240 q-14 -22 0 -42 t0 -38"/></g>
+<use href="#bs" transform="translate(1138 300) scale(.55) translate(0 -110)" style="--t:#ff9fb8;--l:#f7d9bd;--r:#ecc3a1"/>
+<use href="#t3" x="975" y="300"/><use href="#t3" x="1000" y="320"/><use href="#t3" x="1180" y="330"/>
+
+<!-- 陽明山花季 -->
+<path d="M1280 340 Q1330 190 1440 200 Q1560 210 1600 340Z" fill="#8fd6a4"/>
+<g fill="#ff8fab"><circle cx="1360" cy="280" r="9"/><circle cx="1400" cy="300" r="9"/><circle cx="1450" cy="270" r="9"/><circle cx="1500" cy="300" r="9"/><circle cx="1420" cy="320" r="8"/></g>
+<g fill="#ffd23f"><circle cx="1372" cy="300" r="5"/><circle cx="1470" cy="296" r="5"/><circle cx="1510" cy="322" r="5"/></g>
+<use href="#t3" x="1330" y="300"/><use href="#t3" x="1430" y="250"/><use href="#t3" x="1550" y="290"/>
+<g fill="none" stroke="#ff8fab" stroke-width="3"><path d="M1440 200 q10 -20 0 -40"/></g><use href="#cloud" transform="translate(1500 150) scale(.5)"/>
+
+<!-- 捷運高架 -->
+<g fill="none"><path d="M-20 520 C300 470 540 470 780 500 S1200 430 1620 470" stroke="#8d9a92" stroke-width="22" stroke-linecap="round"/>
+<path d="M-20 520 C300 470 540 470 780 500 S1200 430 1620 470" stroke="#fff" stroke-width="3" stroke-dasharray="3 14"/></g>
+<g stroke="#8d9a92" stroke-width="8"><line x1="200" y1="500" x2="200" y2="560"/><line x1="520" y1="490" x2="520" y2="550"/><line x1="1000" y1="480" x2="1000" y2="545"/><line x1="1300" y1="450" x2="1300" y2="520"/></g>
+<g transform="translate(940 478) rotate(-5)"><rect x="-4" y="-34" width="236" height="34" rx="12" fill="#fff"/><rect x="-4" y="-14" width="236" height="7" fill="#c48c31"/>
+<g fill="#8fdcf7"><rect x="8" y="-28" width="30" height="14" rx="4"/><rect x="46" y="-28" width="30" height="14" rx="4"/><rect x="84" y="-28" width="30" height="14" rx="4"/><rect x="128" y="-28" width="30" height="14" rx="4"/><rect x="166" y="-28" width="30" height="14" rx="4"/><rect x="200" y="-28" width="24" height="14" rx="4"/></g></g>
+<g transform="translate(250 490) rotate(-3)"><rect x="-4" y="-34" width="190" height="34" rx="12" fill="#fff"/><rect x="-4" y="-14" width="190" height="7" fill="#e3002c"/>
+<g fill="#8fdcf7"><rect x="8" y="-28" width="30" height="14" rx="4"/><rect x="46" y="-28" width="30" height="14" rx="4"/><rect x="84" y="-28" width="30" height="14" rx="4"/><rect x="122" y="-28" width="30" height="14" rx="4"/><rect x="158" y="-28" width="22" height="14" rx="4"/></g></g>
+
+<!-- 動物園 -->
+<rect x="236" y="364" width="14" height="40" fill="#e98c3a"/><rect x="330" y="364" width="14" height="40" fill="#e98c3a"/>
+<path d="M232 366 Q290 330 348 366" fill="#ffb55e" stroke="#e98c3a" stroke-width="4"/>
+<rect x="258" y="352" width="64" height="20" rx="8" fill="#fff"/><text x="290" y="367" font-size="14" font-weight="900" text-anchor="middle" fill="#e98c3a" font-family="sans-serif">ZOO</text>
+<g transform="translate(290 420)"><ellipse cx="0" cy="4" rx="34" ry="8" fill="#000" opacity=".1"/><circle cx="0" cy="-22" r="26" fill="#fff"/><circle cx="-20" cy="-42" r="9" fill="#2d2a32"/><circle cx="20" cy="-42" r="9" fill="#2d2a32"/><ellipse cx="-10" cy="-24" rx="6" ry="8" fill="#2d2a32"/><ellipse cx="10" cy="-24" rx="6" ry="8" fill="#2d2a32"/><circle cx="-10" cy="-25" r="2" fill="#fff"/><circle cx="10" cy="-25" r="2" fill="#fff"/><ellipse cx="0" cy="-14" rx="5" ry="3.5" fill="#2d2a32"/><rect x="-28" y="0" width="56" height="26" rx="12" fill="#fff"/><rect x="-28" y="6" width="14" height="20" rx="7" fill="#2d2a32"/><rect x="14" y="6" width="14" height="20" rx="7" fill="#2d2a32"/></g>
+<use href="#t1" x="200" y="430"/><use href="#t1" x="380" y="420"/><use href="#t2" x="410" y="445"/>
+
+<!-- 大安森林公園 -->
+<ellipse cx="800" cy="610" rx="190" ry="78" fill="#a8e2bc"/><ellipse cx="800" cy="606" rx="165" ry="64" fill="#bdeccd"/>
+<ellipse cx="800" cy="610" rx="120" ry="42" fill="none" stroke="#fff" stroke-width="12" opacity=".9"/>
+<g transform="translate(740 590)"><path d="M0 0 L28 -52 L56 0" fill="none" stroke="#ff5a4d" stroke-width="7" stroke-linejoin="round"/><path d="M56 -4 Q90 -40 118 4" fill="none" stroke="#4d96ff" stroke-width="14" stroke-linecap="round"/><line x1="10" y1="-34" x2="10" y2="-8" stroke="#555" stroke-width="2"/><line x1="46" y1="-34" x2="46" y2="-8" stroke="#555" stroke-width="2"/><rect x="4" y="-9" width="48" height="6" rx="3" fill="#ffd23f"/></g>
+<ellipse cx="860" cy="640" rx="34" ry="14" fill="#ff9f43"/><ellipse cx="860" cy="640" rx="34" ry="14" fill="none" stroke="#fff" stroke-width="3" stroke-dasharray="6 6"/>
+<use href="#kid" x="852" y="640" style="--k:#ff7aa2"/><use href="#kid" x="872" y="644" style="--k:#4db6c6"/><use href="#kid" x="760" y="640" style="--k:#ffd23f"/>
+<use href="#t1" x="640" y="600"/><use href="#t1" x="660" y="640"/><use href="#t1" x="955" y="610"/><use href="#t2" x="975" y="640"/><use href="#t1" x="800" y="560"/>
+
+<!-- 大湖公園 -->
+<ellipse cx="1296" cy="580" rx="170" ry="66" fill="#a8e2bc"/>
+<ellipse cx="1296" cy="580" rx="130" ry="46" fill="url(#water)"/><ellipse cx="1290" cy="574" rx="100" ry="30" fill="#8fdcf7" opacity=".6"/>
+<path d="M1196 586 Q1296 470 1396 586" fill="none" stroke="#e63946" stroke-width="18" stroke-linecap="round"/><path d="M1196 586 Q1296 470 1396 586" fill="none" stroke="#fff" stroke-width="3" stroke-dasharray="2 12" stroke-linecap="round"/>
+<g stroke="#e63946" stroke-width="5"><line x1="1226" y1="545" x2="1226" y2="588"/><line x1="1262" y1="520" x2="1262" y2="590"/><line x1="1296" y1="514" x2="1296" y2="590"/><line x1="1330" y1="520" x2="1330" y2="590"/><line x1="1366" y1="545" x2="1366" y2="588"/></g>
+<g><ellipse cx="1240" cy="620" rx="14" ry="8" fill="#fff"/><circle cx="1250" cy="613" r="6" fill="#fff"/><path d="M1255 613 l8 2 -8 2z" fill="#ff9f43"/></g>
+<use href="#t1" x="1150" y="600"/><use href="#t2" x="1440" y="590"/><use href="#t3" x="1180" y="640"/><use href="#t1" x="1420" y="630"/>
+
+<!-- 大稻埕老街 -->
+<use href="#bx" transform="translate(1000 790) scale(.62) translate(0 -150)" style="--t:#e0674f;--l:#c8553d;--r:#d8624a"/>
+<use href="#bx" transform="translate(1062 780) scale(.62) translate(0 -150)" style="--t:#ffc371;--l:#f0a04b;--r:#f7b35e"/>
+<use href="#bx" transform="translate(1124 790) scale(.62) translate(0 -150)" style="--t:#7bc4b0;--l:#5aa793;--r:#69b6a1"/>
+<g stroke="#6b4f3a" stroke-width="2.5" fill="none"><path d="M990 702 Q1060 722 1130 702"/></g>
+<g fill="#ff3b2f"><circle cx="1012" cy="714" r="9"/><circle cx="1060" cy="720" r="9"/><circle cx="1108" cy="714" r="9"/></g><g fill="#ffd23f"><rect x="1007" y="702" width="10" height="4"/><rect x="1055" y="708" width="10" height="4"/><rect x="1103" y="702" width="10" height="4"/></g>
+<use href="#kid" x="1030" y="826" style="--k:#ffd23f"/><use href="#kid" x="1090" y="830" style="--k:#ff7aa2"/>
+<use href="#t1" x="930" y="810"/><use href="#t1" x="1200" y="812"/>
+
+<!-- 圓山摩天輪 -->
+<g transform="translate(330 592)">
+<line x1="-26" y1="62" x2="0" y2="0" stroke="#7a8a96" stroke-width="6" stroke-linecap="round"/><line x1="26" y1="62" x2="0" y2="0" stroke="#7a8a96" stroke-width="6" stroke-linecap="round"/>
+<circle r="60" fill="none" stroke="#ff7aa2" stroke-width="5"/><circle r="40" fill="none" stroke="#ffb3c7" stroke-width="2"/>
+<g stroke="#ff9fb8" stroke-width="2"><line x1="-60" y1="0" x2="60" y2="0"/><line x1="0" y1="-60" x2="0" y2="60"/><line x1="-42" y1="-42" x2="42" y2="42"/><line x1="-42" y1="42" x2="42" y2="-42"/></g>
+<rect x="-8" y="-70" width="16" height="12" rx="3" fill="#ffd23f"/><rect x="52" y="-8" width="16" height="12" rx="3" fill="#4d96ff"/><rect x="-8" y="54" width="16" height="12" rx="3" fill="#ff5a4d"/><rect x="-68" y="-8" width="16" height="12" rx="3" fill="#4db6c6"/><rect x="38" y="-54" width="16" height="12" rx="3" fill="#ff9f43"/><rect x="-54" y="40" width="16" height="12" rx="3" fill="#8fdc6a"/>
+<circle r="6" fill="#fff" stroke="#ff7aa2" stroke-width="3"/>
+</g>
+<use href="#t3" x="250" y="660"/><use href="#t1" x="400" y="664"/>
+<!-- 碧潭吊橋 -->
+<g>
+<rect x="352" y="778" width="10" height="56" fill="#e63946"/><rect x="568" y="778" width="10" height="56" fill="#e63946"/>
+<path d="M280 826 L357 782 Q465 850 573 782 L650 826" fill="none" stroke="#7a4b32" stroke-width="3"/>
+<g stroke="#7a4b32" stroke-width="2"><line x1="390" y1="800" x2="390" y2="828"/><line x1="425" y1="812" x2="425" y2="828"/><line x1="465" y1="816" x2="465" y2="828"/><line x1="505" y1="812" x2="505" y2="828"/><line x1="540" y1="800" x2="540" y2="828"/></g>
+<rect x="280" y="826" width="370" height="8" fill="#c9a27a"/>
+</g>
+<!-- 前景小物 -->
+<use href="#t1" x="90" y="600"/><use href="#t2" x="130" y="620"/><use href="#t1" x="520" y="640"/><use href="#t2" x="1520" y="640"/><use href="#t1" x="1560" y="690"/>
+<g transform="translate(1420 120)"><ellipse cx="0" cy="0" rx="22" ry="26" fill="#ff7aa2"/><path d="M-6 26 L0 40 L6 26Z" fill="#ff7aa2"/><line x1="0" y1="40" x2="0" y2="70" stroke="#6b4f3a" stroke-width="2"/></g>
+</svg>

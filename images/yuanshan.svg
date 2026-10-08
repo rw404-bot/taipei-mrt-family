@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="花博公園摩天輪與遊戲場插圖">
+<defs>
+<linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a9e0ff"/><stop offset="1" stop-color="#f0fbff"/></linearGradient>
+<g id="t1"><ellipse cx="0" cy="2" rx="18" ry="6" fill="#000" opacity=".1"/><rect x="-4" y="-18" width="8" height="20" rx="2" fill="#8d5a3b"/><circle cx="0" cy="-38" r="24" fill="#4faf6f"/><circle cx="-9" cy="-44" r="14" fill="#6cc98a"/></g>
+<g id="t3"><ellipse cx="0" cy="2" rx="18" ry="6" fill="#000" opacity=".1"/><rect x="-4" y="-18" width="8" height="20" rx="2" fill="#8d5a3b"/><circle cx="0" cy="-38" r="24" fill="#ffb3c7"/><circle cx="-9" cy="-34" r="13" fill="#ff8fab"/></g>
+</defs>
+<rect width="600" height="400" fill="url(#s)"/>
+<circle cx="86" cy="64" r="34" fill="#ffd23f"/><ellipse cx="440" cy="64" rx="54" ry="17" fill="#fff"/><ellipse cx="480" cy="52" rx="34" ry="15" fill="#fff"/>
+<path d="M0 250 Q150 200 300 245 T600 235 V400 H0Z" fill="#b9e6c7"/>
+<path d="M0 300 Q200 262 400 302 T600 296 V400 H0Z" fill="#8fd6a4"/>
+<path d="M0 350 Q200 322 420 352 T600 340 V400 H0Z" fill="#6cc58a"/>
+<!-- 摩天輪 -->
+<g transform="translate(430 190)">
+<line x1="-40" y1="150" x2="0" y2="0" stroke="#7a8a96" stroke-width="8" stroke-linecap="round"/><line x1="40" y1="150" x2="0" y2="0" stroke="#7a8a96" stroke-width="8" stroke-linecap="round"/>
+<circle r="104" fill="none" stroke="#ff7aa2" stroke-width="7"/><circle r="70" fill="none" stroke="#ffb3c7" stroke-width="3"/>
+<g stroke="#ff9fb8" stroke-width="3"><line x1="-104" y1="0" x2="104" y2="0"/><line x1="0" y1="-104" x2="0" y2="104"/><line x1="-74" y1="-74" x2="74" y2="74"/><line x1="-74" y1="74" x2="74" y2="-74"/></g>
+<g><rect x="-12" y="-122" width="24" height="18" rx="5" fill="#ffd23f"/><rect x="92" y="-14" width="24" height="18" rx="5" fill="#4d96ff"/><rect x="-12" y="86" width="24" height="18" rx="5" fill="#ff5a4d"/><rect x="-116" y="-14" width="24" height="18" rx="5" fill="#4db6c6"/><rect x="66" y="-92" width="24" height="18" rx="5" fill="#ff9f43"/><rect x="-90" y="-92" width="24" height="18" rx="5" fill="#8fdc6a"/><rect x="66" y="64" width="24" height="18" rx="5" fill="#ff7aa2"/><rect x="-90" y="64" width="24" height="18" rx="5" fill="#ffd23f"/></g>
+<circle r="10" fill="#fff" stroke="#ff7aa2" stroke-width="4"/>
+</g>
+<!-- 旋轉木馬 -->
+<g transform="translate(150 336)"><ellipse cx="0" cy="14" rx="74" ry="14" fill="#000" opacity=".1"/><rect x="-62" y="-6" width="124" height="20" rx="6" fill="#ffd9a8"/><rect x="-60" y="-70" width="6" height="66" fill="#ff5a4d"/><rect x="54" y="-70" width="6" height="66" fill="#ff5a4d"/><rect x="-4" y="-70" width="8" height="66" fill="#ff5a4d"/><path d="M-76 -70 L0 -112 L76 -70Z" fill="#ff7aa2"/><path d="M-76 -70 Q-57 -58 -38 -70 Q-19 -58 0 -70 Q19 -58 38 -70 Q57 -58 76 -70" fill="#fff"/><circle cx="0" cy="-114" r="6" fill="#ffd23f"/>
+<g><ellipse cx="-30" cy="-30" rx="14" ry="9" fill="#fff"/><circle cx="-18" cy="-38" r="6" fill="#fff"/><rect x="-42" y="-24" width="4" height="14" fill="#fff"/><rect x="-26" y="-24" width="4" height="14" fill="#fff"/></g>
+<g><ellipse cx="32" cy="-30" rx="14" ry="9" fill="#ffd23f"/><circle cx="44" cy="-38" r="6" fill="#ffd23f"/><rect x="20" y="-24" width="4" height="14" fill="#ffd23f"/><rect x="36" y="-24" width="4" height="14" fill="#ffd23f"/></g></g>
+<use href="#t1" x="40" y="320"/><use href="#t3" x="290" y="346"/><use href="#t3" x="325" y="362"/><use href="#t1" x="560" y="338"/>
+<g transform="translate(250 372)"><rect x="-5" y="-14" width="4" height="15" fill="#3b4a5a"/><rect x="1" y="-14" width="4" height="15" fill="#3b4a5a"/><rect x="-8" y="-34" width="16" height="22" rx="6" fill="#4d96ff"/><circle cx="0" cy="-42" r="8" fill="#ffd2ad"/><path d="M-8 -44 Q0 -56 8 -44Z" fill="#4a3226"/></g>
+<g transform="translate(540 128)"><ellipse cx="0" cy="0" rx="16" ry="19" fill="#ff7aa2"/><path d="M-4 19 L0 30 L4 19Z" fill="#ff7aa2"/><line x1="0" y1="30" x2="0" y2="56" stroke="#6b4f3a" stroke-width="2"/></g>
+</svg>

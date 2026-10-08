@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="劍潭山步道與登山家庭插圖">
+<defs>
+<linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd7a8"/><stop offset=".6" stop-color="#ffe9cc"/><stop offset="1" stop-color="#fff6e8"/></linearGradient>
+<g id="t2"><ellipse cx="0" cy="2" rx="14" ry="5" fill="#000" opacity=".1"/><rect x="-3" y="-8" width="6" height="10" fill="#8d5a3b"/><path d="M0 -62 L18 -28 L-18 -28Z" fill="#3a9a5f"/><path d="M0 -48 L22 -12 L-22 -12Z" fill="#4faf6f"/></g>
+</defs>
+<rect width="600" height="400" fill="url(#s)"/>
+<circle cx="300" cy="170" r="90" fill="#ffb347" opacity=".35"/><circle cx="300" cy="170" r="60" fill="#ffb347"/>
+<path d="M0 300 L120 150 L250 260 L390 120 L600 300 V400 H0Z" fill="#8fd6a4"/>
+<path d="M390 120 L330 190 L420 200 L470 170Z" fill="#fff" opacity=".18"/>
+<path d="M0 350 L110 240 L240 340 L380 230 L600 360 V400 H0Z" fill="#5fbd7d"/>
+<path d="M0 390 Q150 330 300 372 T600 360 V400 H0Z" fill="#3f9d5a"/>
+<!-- 步道 -->
+<path d="M290 400 Q230 350 320 312 T286 250 T380 190" stroke="#f3e2b8" stroke-width="22" fill="none" stroke-linecap="round"/>
+<path d="M290 400 Q230 350 320 312 T286 250 T380 190" stroke="#e6cf9c" stroke-width="3" fill="none" stroke-dasharray="4 10" stroke-linecap="round"/>
+<!-- 旗 -->
+<line x1="390" y1="120" x2="390" y2="64" stroke="#6b4f3a" stroke-width="5"/><path d="M390 64 l48 15 -48 15z" fill="#ff5a4d"/>
+<!-- 登山家庭 -->
+<g transform="translate(330 316)"><ellipse cx="0" cy="3" rx="14" ry="4" fill="#000" opacity=".15"/><rect x="-6" y="-16" width="5" height="18" fill="#3b4a5a"/><rect x="2" y="-16" width="5" height="18" fill="#3b4a5a"/><rect x="-11" y="-42" width="22" height="28" rx="8" fill="#e63946"/><rect x="-16" y="-38" width="8" height="22" rx="4" fill="#ffd23f"/><circle cx="0" cy="-52" r="10" fill="#ffd2ad"/><path d="M-11 -54 Q0 -68 11 -54Z" fill="#4a3226"/><line x1="14" y1="-30" x2="22" y2="2" stroke="#8d5a3b" stroke-width="3"/></g>
+<g transform="translate(366 330) scale(.72)"><ellipse cx="0" cy="3" rx="14" ry="4" fill="#000" opacity=".15"/><rect x="-6" y="-16" width="5" height="18" fill="#3b4a5a"/><rect x="2" y="-16" width="5" height="18" fill="#3b4a5a"/><rect x="-11" y="-42" width="22" height="28" rx="8" fill="#4d96ff"/><circle cx="0" cy="-52" r="10" fill="#ffd2ad"/><path d="M-10 -54 Q0 -64 10 -54 L12 -48 L-12 -48Z" fill="#ffd23f"/></g>
+<use href="#t2" x="70" y="330"/><use href="#t2" x="110" y="352"/><use href="#t2" x="520" y="340"/><use href="#t2" x="560" y="360"/>
+<g fill="#fff" opacity=".85"><ellipse cx="100" cy="70" rx="48" ry="14"/><ellipse cx="136" cy="60" rx="30" ry="13"/><ellipse cx="500" cy="60" rx="44" ry="13"/></g>
+</svg>

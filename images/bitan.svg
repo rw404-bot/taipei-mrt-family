@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="碧潭吊橋與蝴蝶遊戲場插圖">
+<defs>
+<linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe9ff"/><stop offset="1" stop-color="#f0fbff"/></linearGradient>
+<linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6ccbe6"/><stop offset="1" stop-color="#2f9bb5"/></linearGradient>
+<g id="t1"><ellipse cx="0" cy="2" rx="18" ry="6" fill="#000" opacity=".1"/><rect x="-4" y="-18" width="8" height="20" rx="2" fill="#8d5a3b"/><circle cx="0" cy="-38" r="24" fill="#4faf6f"/><circle cx="-9" cy="-44" r="14" fill="#6cc98a"/></g>
+</defs>
+<rect width="600" height="400" fill="url(#s)"/>
+<circle cx="520" cy="62" r="34" fill="#ffd23f"/><ellipse cx="110" cy="64" rx="54" ry="17" fill="#fff"/><ellipse cx="150" cy="52" rx="34" ry="15" fill="#fff"/>
+<path d="M0 220 Q100 110 220 190 Q320 90 440 180 Q520 120 600 190 V270 H0Z" fill="#a8dfb0"/>
+<path d="M0 250 Q160 200 330 240 T600 230 V290 H0Z" fill="#7fcf95"/>
+<rect y="272" width="600" height="128" fill="url(#w)"/>
+<g stroke="#fff" stroke-width="3" fill="none" opacity=".7" stroke-linecap="round"><path d="M40 330 q15 -8 30 0 t30 0"/><path d="M430 372 q15 -8 30 0 t30 0"/><path d="M250 388 q15 -8 30 0 t30 0"/><path d="M520 318 q12 -6 24 0 t24 0"/></g>
+<!-- 吊橋 -->
+<g>
+<rect x="150" y="150" width="16" height="130" fill="#e63946"/><rect x="434" y="150" width="16" height="130" fill="#e63946"/>
+<path d="M20 266 L158 156 Q300 296 442 156 L580 266" fill="none" stroke="#7a4b32" stroke-width="5"/>
+<g stroke="#7a4b32" stroke-width="2.5"><line x1="190" y1="190" x2="190" y2="270"/><line x1="230" y1="214" x2="230" y2="270"/><line x1="270" y1="226" x2="270" y2="270"/><line x1="310" y1="226" x2="310" y2="270"/><line x1="350" y1="214" x2="350" y2="270"/><line x1="390" y1="190" x2="390" y2="270"/></g>
+<rect x="0" y="266" width="600" height="12" fill="#c9a27a"/><rect x="0" y="266" width="600" height="4" fill="#e0bf99"/>
+</g>
+<!-- 渡船 -->
+<g transform="translate(300 336)"><ellipse cx="0" cy="16" rx="56" ry="9" fill="#000" opacity=".12"/><path d="M-50 0 L50 0 L36 20 L-36 20Z" fill="#ff9f43"/><rect x="-4" y="-34" width="4" height="34" fill="#6b4f3a"/><path d="M0 -34 L34 -6 L0 -6Z" fill="#fff"/>
+<g transform="translate(-24 -2)"><rect x="-5" y="-14" width="4" height="15" fill="#3b4a5a"/><rect x="1" y="-14" width="4" height="15" fill="#3b4a5a"/><rect x="-8" y="-34" width="16" height="22" rx="6" fill="#ff7aa2"/><circle cx="0" cy="-42" r="8" fill="#ffd2ad"/><path d="M-8 -44 Q0 -56 8 -44Z" fill="#4a3226"/></g></g>
+<!-- 蝴蝶 -->
+<g transform="translate(90 120)"><ellipse cx="-14" cy="-6" rx="16" ry="12" fill="#ff7aa2"/><ellipse cx="14" cy="-6" rx="16" ry="12" fill="#ff9f43"/><ellipse cx="-10" cy="10" rx="10" ry="8" fill="#ffb3c7"/><ellipse cx="10" cy="10" rx="10" ry="8" fill="#ffd23f"/><rect x="-2" y="-14" width="4" height="30" rx="2" fill="#4a3226"/></g>
+<g transform="translate(500 140) scale(.7)"><ellipse cx="-14" cy="-6" rx="16" ry="12" fill="#4db6c6"/><ellipse cx="14" cy="-6" rx="16" ry="12" fill="#8fdc6a"/><ellipse cx="-10" cy="10" rx="10" ry="8" fill="#b9ecff"/><ellipse cx="10" cy="10" rx="10" ry="8" fill="#d7f5b5"/><rect x="-2" y="-14" width="4" height="30" rx="2" fill="#4a3226"/></g>
+<use href="#t1" x="40" y="262"/><use href="#t1" x="560" y="262"/><use href="#t1" x="590" y="270"/>
+</svg>

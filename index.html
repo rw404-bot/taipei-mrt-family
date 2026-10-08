@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>台北捷運親子出遊趣</title>
+<meta name="description" content="用捷運輕鬆帶孩子出遊：10 條親子路線、全台北捷運公園地圖，點公園就知道出站怎麼走。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans+TC:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#top"><img src="images/logo.svg" alt="" width="30" height="30"><span>捷運親子趣</span></a>
+  <nav aria-label="頁面導覽">
+    <a href="#routes">路線</a>
+    <a href="#network">地圖</a>
+    <a href="#planner">天氣</a>
+    <a href="#checklist">清單</a>
+  </nav>
+  <div class="hbtns"><button class="cta adv" id="adv-btn" type="button">🎲 大冒險</button><a class="cta" href="#network">找公園</a></div>
+</header>
+
+<main id="top">
+  <!-- 主視覺：插畫地圖 + 圖釘 -->
+  <section class="hero" aria-labelledby="hero-h">
+    <div class="scene">
+     <div class="scene-in">
+      <img src="images/hero.svg" alt="台北親子捷運城市插畫：動物園、天文館、公園、湖畔紅橋、溫泉與老街">
+      <button class="pinbtn" style="left:19%;top:44%" data-open="zoo"><span>🐼 動物園</span></button>
+      <button class="pinbtn" style="left:44%;top:25%" data-open="science"><span>🔭 天文館</span></button>
+      <button class="pinbtn" style="left:50%;top:66%" data-open="park"><span>🛝 大安森林公園</span></button>
+      <button class="pinbtn" style="left:81%;top:58%" data-open="dahu"><span>🌉 大湖公園</span></button>
+      <button class="pinbtn" style="left:11%;top:23%" data-open="jiantan"><span>🥾 劍潭山</span></button>
+      <button class="pinbtn" style="left:66%;top:23%" data-open="beitou"><span>♨️ 北投</span></button>
+      <button class="pinbtn" style="left:88%;top:25%" data-open="yangming"><span>🌸 陽明山</span></button>
+      <button class="pinbtn" style="left:68%;top:86%" data-open="dadaocheng"><span>🏮 大稻埕</span></button>
+      <button class="pinbtn" style="left:20.6%;top:72%" data-open="yuanshan"><span>🎡 圓山花博</span></button>
+      <button class="pinbtn" style="left:30%;top:88%" data-open="bitan"><span>🦋 碧潭</span></button>
+     </div>
+    </div>
+    <div class="hero-copy">
+      <div class="wrap hc-in">
+        <div>
+          <p class="en" aria-hidden="true">FAMILY × MRT</p>
+          <h1 id="hero-h">搭捷運，帶孩子去公園玩！</h1>
+          <p class="lead">點一下地圖上的橘色圖釘，看 10 條親子路線；也可以直接找出離捷運站最近的公園、步道與夜市，或按「🎲 大冒險」讓系統隨機幫你排一趟。</p>
+          <a class="btn primary" href="#network">找離捷運站最近的公園</a>
+          <button class="btn adv" id="adv-btn2" type="button">🎲 大冒險：幫我排一趟！</button>
+        </div>
+        <div class="badges">
+          <span class="scallop orange"><b>10</b>親子路線</span>
+          <span class="scallop teal"><b>250+</b>公園景點</span>
+          <span class="scallop pink"><b>出站</b>怎麼走</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec routes" id="routes" aria-labelledby="routes-h">
+    <div class="wrap">
+      <p class="num">01</p>
+      <h2 id="routes-h">挑一條親子路線</h2>
+      <p class="sub">依年齡、天氣、時間篩選，點「看行程」可加入行事曆。</p>
+      <div class="filters" role="group" aria-label="篩選路線">
+        <div class="fgroup" data-key="age"><span>年齡</span>
+          <button class="chip on" data-v="all">全部</button>
+          <button class="chip" data-v="toddler">幼兒 0–6</button>
+          <button class="chip" data-v="kid">學童 7–12</button>
+        </div>
+        <div class="fgroup" data-key="weather"><span>天氣</span>
+          <button class="chip on" data-v="all">全部</button>
+          <button class="chip" data-v="sunny">☀️ 晴天</button>
+          <button class="chip" data-v="rainy">🌧️ 雨天也行</button>
+        </div>
+        <div class="fgroup" data-key="dur"><span>時間</span>
+          <button class="chip on" data-v="all">全部</button>
+          <button class="chip" data-v="half">半天</button>
+          <button class="chip" data-v="full">一天</button>
+        </div>
+        <div class="fgroup"><span>收藏</span>
+          <button class="chip" id="fav-only" aria-pressed="false">❤️ 只看收藏</button>
+        </div>
+      </div>
+      <p id="result-count" class="muted" aria-live="polite"></p>
+      <div id="route-grid" class="grid"></div>
+    </div>
+  </section>
+
+  <section class="sec network" id="network" aria-labelledby="net-h">
+    <div class="wrap">
+      <p class="num">02</p>
+      <h2 id="net-h">捷運公園地圖</h2>
+      <p class="sub">橘色圓點的數字，是這一站出站後可以去的地方數量。點站名，看有哪些公園、怎麼走。</p>
+
+      <div class="net-controls">
+        <div id="net-cats" class="fgroup" role="group" aria-label="地點類型"></div>
+        <div id="net-lines" class="fgroup" role="group" aria-label="路線"></div>
+        <label class="field search">找公園、步道或站名
+          <input type="search" id="net-q" placeholder="例如：大安、步道、櫻花">
+        </label>
+      </div>
+
+      <div class="netbox">
+        <div class="zoombar" role="group" aria-label="縮放地圖">
+          <button class="btn small ghost" id="zoom-out" aria-label="縮小">−</button>
+          <span id="zoom-val">100%</span>
+          <button class="btn small ghost" id="zoom-in" aria-label="放大">＋</button>
+          <button class="btn small ghost" id="zoom-fit">符合寬度</button>
+        </div>
+        <div id="netscroll" class="netscroll" tabindex="0" aria-label="捷運路網圖，可左右上下捲動">
+          <svg id="net" viewBox="0 0 1100 1060" role="group" aria-label="自繪簡化捷運路網圖"></svg>
+        </div>
+        <div id="adv-bar" class="advbar" hidden></div>
+        <p class="muted small">這是自繪的簡化示意圖，站與站的距離、方位不是實際地理位置，也不是官方路網圖。貓空纜車以虛線表示。</p>
+      </div>
+
+      <h3 id="wall-head" class="wall-title">所有親子地點</h3>
+      <p id="wall-count" class="muted"></p>
+      <div id="wall" class="wall"></div>
+      <p class="more"><button class="btn ghost" id="wall-more" hidden>顯示更多</button></p>
+      <h3 class="wall-title">2026 年捷運官方主題地圖</h3>
+      <p class="muted">來自台北捷運「<a href="https://www.metro.taipei/cp.aspx?n=8EF371CEC0A0599F&Create=1&s=6805AF9A43E649E6&ccms_cs=1&state=F5D336F102ACBC68" target="_blank" rel="noopener">旅遊趣</a>」。上方「🍜 美食」類別已收錄前兩張的店家，沿線店家以最近的捷運站標示。</p>
+      <div id="themed" class="themed"></div>
+      <p class="muted small">資料整理自<a href="https://www.metro.taipei/" target="_blank" rel="noopener">台北捷運</a>公開的親子公園地圖（2024.4）、夜市地圖（2023.11）、步道與賞花地圖，以及旅遊趣 2026 年主題地圖（米其林資料來源：The MICHELIN Guide）；共融遊戲場、花期與店家資訊請以官方最新資訊為準。</p>
+    </div>
+  </section>
+
+  <section class="sec planner" id="planner" aria-labelledby="planner-h">
+    <div class="wrap">
+      <p class="num">03</p>
+      <h2 id="planner-h">選日期，看天氣</h2>
+      <div id="holiday-banner" class="banner" hidden></div>
+      <div class="panel">
+        <label class="field">出遊日期
+          <input type="date" id="date">
+        </label>
+        <div id="weather-now" class="weather-now" aria-live="polite">天氣載入中…</div>
+      </div>
+      <div id="weather-strip" class="weather-strip" aria-label="未來天氣預報"></div>
+    </div>
+  </section>
+
+  <section class="sec" id="checklist" aria-labelledby="checklist-h">
+    <div class="wrap">
+      <p class="num">04</p>
+      <h2 id="checklist-h">出遊清單</h2>
+      <div class="panel">
+        <ul id="pack-list" class="pack"></ul>
+        <button class="btn ghost" id="pack-reset">全部取消勾選</button>
+      </div>
+      <div class="panel tips">
+        <h3>搭捷運小提醒</h3>
+        <ul>
+          <li>捷運車站與車廂內禁止飲食，點心留到出站再享用。</li>
+          <li>兒童票價與免費規定，請以台北捷運官網公告為準。</li>
+          <li>帶嬰兒車請優先使用電梯，並禮讓有需要的乘客。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>這是個人製作的非官方資訊網站，路線與營運資訊可能變動，出發前請以各場館與<a href="https://www.metro.taipei/" target="_blank" rel="noopener">台北捷運官網</a>為準。</p>
+    <p>天氣資料來自 <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a>；插圖皆為示意概念圖。</p>
+  </div>
+</footer>
+
+<div id="drawer-bg" class="drawer-bg"></div>
+<aside id="drawer" class="drawer" role="dialog" aria-modal="true" aria-label="地點與出站路線" aria-hidden="true"></aside>
+<dialog id="detail" aria-labelledby="d-title"></dialog>
+<dialog id="adventure" aria-labelledby="adv-title"></dialog>
+
+<script src="js/data.js"></script>
+<script src="js/places.js"></script>
+<script src="js/parks.js"></script>
+<script src="js/app.js"></script>
+<script src="js/network.js"></script>
+<script src="js/adventure.js"></script>
+</body>
+</html>

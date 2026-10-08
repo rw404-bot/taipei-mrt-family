@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="大湖公園錦帶橋插圖">
+<defs>
+<linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe9ff"/><stop offset="1" stop-color="#f0fbff"/></linearGradient>
+<linearGradient id="w" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7fd0e8"/><stop offset="1" stop-color="#3fa9bd"/></linearGradient>
+<g id="t1"><ellipse cx="0" cy="2" rx="18" ry="6" fill="#000" opacity=".1"/><rect x="-4" y="-18" width="8" height="20" rx="2" fill="#8d5a3b"/><circle cx="0" cy="-38" r="24" fill="#4faf6f"/><circle cx="-9" cy="-44" r="14" fill="#6cc98a"/></g>
+<g id="t3"><ellipse cx="0" cy="2" rx="18" ry="6" fill="#000" opacity=".1"/><rect x="-4" y="-18" width="8" height="20" rx="2" fill="#8d5a3b"/><circle cx="0" cy="-38" r="24" fill="#ffb3c7"/><circle cx="-9" cy="-34" r="13" fill="#ff8fab"/></g>
+</defs>
+<rect width="600" height="400" fill="url(#s)"/>
+<circle cx="520" cy="66" r="34" fill="#ffd23f"/><ellipse cx="120" cy="70" rx="54" ry="17" fill="#fff"/><ellipse cx="160" cy="58" rx="34" ry="15" fill="#fff"/>
+<path d="M0 230 Q130 150 270 215 T600 200 V280 H0Z" fill="#b9e6c7"/>
+<rect y="230" width="600" height="170" fill="url(#w)"/>
+<g stroke="#fff" stroke-width="3" fill="none" opacity=".7" stroke-linecap="round"><path d="M50 300 q15 -8 30 0 t30 0"/><path d="M430 350 q15 -8 30 0 t30 0"/><path d="M250 378 q15 -8 30 0 t30 0"/><path d="M500 280 q12 -6 24 0 t24 0"/></g>
+<!-- 紅橋 -->
+<path d="M70 262 Q300 70 530 262" fill="none" stroke="#c92f3a" stroke-width="28" stroke-linecap="round"/>
+<path d="M70 262 Q300 70 530 262" fill="none" stroke="#ff5a67" stroke-width="22" stroke-linecap="round"/>
+<path d="M70 262 Q300 70 530 262" fill="none" stroke="#fff" stroke-width="3" stroke-dasharray="2 14" stroke-linecap="round"/>
+<g stroke="#e63946" stroke-width="6"><line x1="130" y1="210" x2="130" y2="266"/><line x1="190" y1="162" x2="190" y2="266"/><line x1="250" y1="138" x2="250" y2="266"/><line x1="300" y1="132" x2="300" y2="266"/><line x1="350" y1="138" x2="350" y2="266"/><line x1="410" y1="162" x2="410" y2="266"/><line x1="470" y1="210" x2="470" y2="266"/></g>
+<g opacity=".28"><path d="M70 270 Q300 400 530 270" fill="none" stroke="#c92f3a" stroke-width="22"/></g>
+<!-- 鴨子與錦鯉 -->
+<g><ellipse cx="170" cy="330" rx="26" ry="14" fill="#fff"/><circle cx="192" cy="318" r="11" fill="#fff"/><path d="M201 317 l12 3 -12 4z" fill="#ff9f43"/><circle cx="195" cy="315" r="2" fill="#2d2a32"/></g>
+<g><ellipse cx="400" cy="318" rx="22" ry="11" fill="#ff9f43"/><path d="M422 318 l16 -9 v18z" fill="#ff9f43"/><circle cx="388" cy="314" r="2.5" fill="#2d2a32"/><ellipse cx="400" cy="318" rx="8" ry="4" fill="#fff" opacity=".6"/></g>
+<use href="#t1" x="40" y="236"/><use href="#t3" x="570" y="238"/><use href="#t1" x="548" y="252"/>
+<g transform="translate(300 232)"><rect x="-5" y="-14" width="4" height="15" fill="#3b4a5a"/><rect x="1" y="-14" width="4" height="15" fill="#3b4a5a"/><rect x="-8" y="-32" width="16" height="20" rx="6" fill="#ff9f43"/><circle cx="0" cy="-39" r="8" fill="#ffd2ad"/><path d="M-8 -41 Q0 -52 8 -41Z" fill="#4a3226"/></g>
+</svg>

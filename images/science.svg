@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="天文館與星空插圖">
+<defs>
+<linearGradient id="n" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d1b5e"/><stop offset=".6" stop-color="#3b3a97"/><stop offset="1" stop-color="#7b6bd6"/></linearGradient>
+<radialGradient id="g" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff6c2"/><stop offset="1" stop-color="#fff6c2" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="600" height="400" fill="url(#n)"/>
+<g fill="#fff"><circle cx="50" cy="40" r="3"/><circle cx="130" cy="100" r="2"/><circle cx="240" cy="30" r="3"/><circle cx="350" cy="80" r="2"/><circle cx="450" cy="40" r="3"/><circle cx="560" cy="120" r="2"/><circle cx="80" cy="170" r="2"/><circle cx="310" cy="140" r="2"/><circle cx="520" cy="200" r="2"/><circle cx="200" cy="90" r="1.5"/><circle cx="400" cy="150" r="1.5"/></g>
+<g fill="#ffd23f"><path d="M120 50 l8 16 18 3 -13 12 3 18 -16 -9 -16 9 3 -18 -13 -12 18 -3z"/><path d="M470 110 l6 12 13 2 -9 9 2 13 -12 -7 -12 7 2 -13 -9 -9 13 -2z"/></g>
+<circle cx="500" cy="70" r="70" fill="url(#g)"/><circle cx="500" cy="70" r="34" fill="#ffe27a"/><circle cx="514" cy="60" r="30" fill="#2f2e85"/>
+<ellipse cx="90" cy="250" rx="34" ry="34" fill="#ff7aa2"/><ellipse cx="90" cy="250" rx="62" ry="12" fill="none" stroke="#ffd23f" stroke-width="6" transform="rotate(-20 90 250)"/>
+<path d="M0 340 Q150 300 300 330 T600 320 V400 H0Z" fill="#241f6b"/>
+<!-- 天文館 -->
+<polygon points="170,340 300,300 430,340 300,380" fill="#d9e4ff"/>
+<polygon points="170,340 300,380 300,330 170,290" fill="#aab8f0"/><polygon points="300,380 430,340 430,290 300,330" fill="#c4d0fa"/>
+<path d="M200 296 A100 90 0 0 1 400 296Z" fill="#f4f7ff"/><path d="M200 296 A100 90 0 0 1 400 296Z" fill="none" stroke="#7a8cd8" stroke-width="4"/>
+<path d="M300 206 L300 296" stroke="#7a8cd8" stroke-width="3"/><path d="M240 212 Q300 270 360 212" stroke="#c8d3fb" stroke-width="2" fill="none"/>
+<path d="M300 296 L300 190 L340 150" stroke="#6c63ff" stroke-width="0" fill="none"/>
+<g transform="rotate(35 300 214)"><rect x="288" y="130" width="24" height="96" rx="8" fill="#e9ecff"/><rect x="284" y="124" width="32" height="14" rx="5" fill="#6c63ff"/><rect x="291" y="226" width="18" height="10" fill="#7a8cd8"/></g>
+<g fill="#ffd23f" opacity=".95"><rect x="200" y="320" width="14" height="10" rx="2"/><rect x="230" y="326" width="14" height="10" rx="2"/><rect x="360" y="326" width="14" height="10" rx="2"/><rect x="390" y="320" width="14" height="10" rx="2"/></g>
+<g transform="translate(95 370)"><rect x="-5" y="-12" width="4" height="14" fill="#fff" opacity=".8"/><rect x="1" y="-12" width="4" height="14" fill="#fff" opacity=".8"/><rect x="-8" y="-32" width="16" height="22" rx="6" fill="#ff9f43"/><circle cx="0" cy="-40" r="8" fill="#ffd2ad"/><path d="M-8 -42 Q0 -54 8 -42Z" fill="#4a3226"/></g>
+</svg>

@@ -1,0 +1,9 @@
+﻿.env
+*.key
+node_modules/
+.claude/
+_tmp/
+# 與網站無關的檔案，不上傳
+vibe-site/
+6669-quote.html
+mission-control.html
